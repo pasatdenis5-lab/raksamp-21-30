@@ -1,0 +1,368 @@
+[23:51:59]  
+[23:51:59] * ===================================================== *
+[23:51:59]   RakSAMP Lite initialized on 25/08/2026 23:51:59
+[23:51:59]   Authors: jlfm, bartekdvd, P3ti, Rei
+[23:51:59]   Visit t.me/reiscripts
+[23:51:59] * ===================================================== *
+[23:51:59]  
+[23:51:59] [LUA] Loading scripts...
+[23:51:59] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua loaded
+[23:51:59] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autorec.lua loaded
+[23:51:59] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:52:00] [NET] Connected. Joining the game...
+[23:52:00] [NET] Bad nickname
+[23:52:00] [NET] Connection was closed by the server. Reconnecting in 15 seconds.
+[23:52:15] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:52:16] [NET] Connected. Joining the game...
+[23:52:16] [NET] Bad nickname
+[23:52:16] [NET] Connection was closed by the server. Reconnecting in 15 seconds.
+[23:52:20] [NET] Disconnected.
+[23:55:45]  
+[23:55:45] * ===================================================== *
+[23:55:45]   RakSAMP Lite initialized on 25/08/2026 23:55:45
+[23:55:45]   Authors: jlfm, bartekdvd, P3ti, Rei
+[23:55:45]   Visit t.me/reiscripts
+[23:55:45] * ===================================================== *
+[23:55:45]  
+[23:55:45] [LUA] Loading scripts...
+[23:55:45] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua loaded
+[23:55:45] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autorec.lua loaded
+[23:55:45] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:55:46] [NET] Connected. Joining the game...
+[23:55:47] [RPC] << Set interior: 0
+[23:55:47] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:55:47] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:55:47] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:55:47] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:55:47] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:55:47] [RPC] << New spawn: (0.00; 0.00; 3.00)
+[23:55:47] [RPC] << Spectator mode enabled
+[23:55:47] [AUDIO] http://r.b-zone.ro/sounds/intro.mp3
+[23:55:47] [NET] Connected to B-Zone RPG | Advent Cal., Garbageman Rework
+[23:55:47] [LUA] 1
+[23:55:47] [LUA] send dialog response: 1 1 -1 nil
+[23:55:47] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\libs\addon.lua:18: attempt to index local 'input' (a nil value)
+stack traceback:
+	C:\Users\denis\Desktop\cRz[1]\scripts\libs\addon.lua:18: in function 'sendDialogResponse'
+	C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua:11: in function 'callback'
+	...s\denis\Desktop\cRz[1]\scripts\libs\samp\events\core.lua:74: in function <...s\denis\Desktop\cRz[1]\scripts\libs\samp\events\core.lua:48>
+[23:56:22] [MSG] ** Nu te-ai autentificat in 30 secunde (Ai primit kick) **
+[23:56:23] [NET] Connection was closed by the server. Reconnecting in 15 seconds.
+[23:56:38] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:56:39] [NET] Connected. Joining the game...
+[23:56:40] [RPC] << Set interior: 0
+[23:56:40] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:56:40] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:56:40] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:56:40] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:56:40] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:56:40] [RPC] << New spawn: (0.00; 0.00; 3.00)
+[23:56:40] [RPC] << Spectator mode enabled
+[23:56:40] [AUDIO] http://r.b-zone.ro/sounds/intro.mp3
+[23:56:41] [NET] Connected to B-Zone RPG | Advent Cal., Garbageman Rework
+[23:56:41] [LUA] 1
+[23:56:41] [LUA] send dialog response: 1 1 -1 nil
+[23:56:41] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\libs\addon.lua:18: attempt to index local 'input' (a nil value)
+stack traceback:
+	C:\Users\denis\Desktop\cRz[1]\scripts\libs\addon.lua:18: in function 'sendDialogResponse'
+	C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua:11: in function 'callback'
+	...s\denis\Desktop\cRz[1]\scripts\libs\samp\events\core.lua:74: in function <...s\denis\Desktop\cRz[1]\scripts\libs\samp\events\core.lua:48>
+[23:56:47] [NET] Disconnected.
+[23:57:15]  
+[23:57:15] * ===================================================== *
+[23:57:15]   RakSAMP Lite initialized on 25/08/2026 23:57:15
+[23:57:15]   Authors: jlfm, bartekdvd, P3ti, Rei
+[23:57:15]   Visit t.me/reiscripts
+[23:57:15] * ===================================================== *
+[23:57:15]  
+[23:57:15] [LUA] Loading scripts...
+[23:57:15] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua loaded
+[23:57:15] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autorec.lua loaded
+[23:57:15] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:57:15] [NET] Connected. Joining the game...
+[23:57:16] [RPC] << Set interior: 0
+[23:57:16] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:57:16] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:57:16] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:57:16] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:57:16] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:57:16] [RPC] << New spawn: (0.00; 0.00; 3.00)
+[23:57:16] [RPC] << Spectator mode enabled
+[23:57:16] [AUDIO] http://r.b-zone.ro/sounds/intro.mp3
+[23:57:17] [NET] Connected to B-Zone RPG | Advent Cal., Garbageman Rework
+[23:57:17] [LUA] 1
+[23:57:17] [LUA] send dialog response: 1 1 -1 b3b25bb14
+[23:57:17] [RPC] << New spawn: (1443.05; -1114.13; 93.34)
+[23:57:17] [RPC] << Spectator mode disabled
+[23:57:17] [RPC] >> You have been spawned!
+[23:57:17] [MSG] SERVER: Bine ai venit, LamineYamal!
+[23:57:17] [MSG] SERVER: Esti un jucator cu Cont Premium permanent.
+[23:57:17] [MSG] Recomandam descarcarea si folosirea launcherului open.mp de la adresa b-zone.ro/omp in loc de clientul de sa-mp. Acesta 
+[23:57:17] [MSG] ofera compatibilitate pe viitor mai buna, optimizari si securitate sporita.
+[23:57:17] [MSG] Adresa ta de Email este valida pana la 10.03.2026 12:43. O poti revalida folosind /validate.
+[23:57:17] [MSG] AVERTISMENT! Nu folosesti Autentificarea in doi pasi, contul tau este mai vulnerabil. Daca va fi spart, nu te vom ajuta.
+[23:57:17] [MSG] Pentru a afla cum se activeaza Autentificarea in doi pasi, acceseaza http://b-zone.ro/2fa
+[23:57:17] [GAMETEXT] ~w~Bun venit ~n~~y~   LamineYamal
+[23:57:17] [MSG] [Tasks] Inca ai taskuri nefinalizate! Tasteaza [/tasks] pentru a-ti verifica progresul.
+[23:57:19] [MSG] Organizator Eveniment [RW]Novrix: Cu o aplicatie buna si cu minim nivel 40, aplicatiile pe website!
+[23:57:20] [RPC] << Server requested spawn
+[23:57:20] [RPC] >> You have been spawned!
+[23:57:20] [RPC] << Set interior: 5
+[23:57:20] [RPC] << Set position: (140.33; 1366.48; 1083.86)
+[23:57:24] [MSG] Este un eveniment in desfasurare, pentru detalii tastati /event.
+[23:57:33] [MSG] {54BF9C}[Freq 106.9] [iK]Maldini (401): vand skin 20k rob reg 15 warpickup 25 4hit dmg.
+[23:57:35] [MSG] {54BF9C}[Freq 106.9] [iK]Maldini (401): vand skin 20k rob reg 15 warpickup 25 4hit dmg..
+[23:57:54] [MSG] Organizator Eveniment [RW]Novrix: Prima persoana cu Sms: Clanul RW este unul dintre cele mai veterane!
+[23:57:56]  
+[23:57:56] * ===================================================== *
+[23:57:56]   RakSAMP Lite initialized on 25/08/2026 23:57:56
+[23:57:56]   Authors: jlfm, bartekdvd, P3ti, Rei
+[23:57:56]   Visit t.me/reiscripts
+[23:57:56] * ===================================================== *
+[23:57:56]  
+[23:57:56] [LUA] Loading scripts...
+[23:57:56] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua loaded
+[23:57:56] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autorec.lua loaded
+[23:57:56] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:57:56] [NET] Connected. Joining the game...
+[23:57:56] [NET] Bad nickname
+[23:57:57] [NET] Connection was closed by the server. Reconnecting in 15 seconds.
+[23:57:59] [NET] Disconnected.
+[23:58:00] [MSG] Organizator Eveniment [RW]Novrix: Castiga premiul.
+[23:58:04] [MSG] LamineYamal spune: ba
+[23:58:08] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Ati prefera un Tesla Model 3 sau un Mustang din 70'?
+[23:58:11] [MSG] {54BF9C}[Freq 106.9] [BL]Paul.WAY2GEEKD (461): CUMPAR DROGURI ptr task
+[23:58:13] [LUA] 1
+[23:58:17] [MSG] Jucatorul [WG]01nrs a intrebat: Cum inchizi si pornesti telefonul?
+[23:58:17] [MSG] Helperul [NC]Cata.Versace a raspuns: Salut, foloseste comanda [/turn] sau din [/tog] poti alege daca doresti sa fi apela
+[23:58:17] [MSG] t sau sa ti se dea mesaje.
+[23:58:22] [MSG] Anunt publicat de {FFFFFF}footfetish[OTF]{00D900} ({FFFFFF}846{00D900}): Vand Premier 4647z / Moonbeam 3649z / Wayfarer 4265z / Tampa 4364z  ...
+[23:58:23] [MSG] ... / Casa 41 / Skinuri Onyx det web +skin249
+.
+[23:58:23] [LUA] 1
+[23:58:30] [MSG] {FFFFCC}Eroare: Nu iti este permis sa folosesti acest chat.
+[23:58:32] [MSG] LamineYamal spune: f
+[23:58:32] [MSG] Organizator Eveniment [RW]Novrix: Stop, id 5 este castigatorul sumei de 100k!
+[23:58:34] [MSG] {54BF9C}[Freq 106.9] [XO]ZioAdolf (779): Baieti Stroe intreaba daca mai vreti un Trivia sau un Even/Odd ? Ce ziceti ?
+[23:58:38] [MSG] Invitat hrs_[OLD]: Nici numai are rost sa zic.
+[23:58:41] [MSG] Invitat Nana21[LION]: As prefera orice in afara de Tesla (sau orice alta masina electrica).
+[23:58:55] [MSG] Organizator Eveniment [RW]Novrix: Acesta si a primit premiul!
+[23:58:59] [MSG] Organizator Eveniment [RW]Novrix: Clanul [RW] recruteaza noi jucatori activi & seriosi, cu o aplicatie buna si cu minim nivel 4
+[23:59:06] [MSG] Organizator Eveniment [RW]Novrix: Seara buna tuturor.
+[23:59:06] [NET] Disconnected.
+[23:59:20]  
+[23:59:20] * ===================================================== *
+[23:59:20]   RakSAMP Lite initialized on 25/08/2026 23:59:20
+[23:59:20]   Authors: jlfm, bartekdvd, P3ti, Rei
+[23:59:20]   Visit t.me/reiscripts
+[23:59:20] * ===================================================== *
+[23:59:20]  
+[23:59:20] [LUA] Loading scripts...
+[23:59:20] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autolog.lua loaded
+[23:59:20] [LUA] C:\Users\denis\Desktop\cRz[1]\scripts\autorec.lua loaded
+[23:59:20] [NET] Connecting to rpg.b-zone.ro:7777...
+[23:59:21] [NET] Connected. Joining the game...
+[23:59:22] [RPC] << Set interior: 0
+[23:59:22] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:59:22] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:59:22] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:59:22] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:59:22] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[23:59:22] [RPC] << New spawn: (0.00; 0.00; 3.00)
+[23:59:22] [RPC] << Spectator mode enabled
+[23:59:22] [AUDIO] http://r.b-zone.ro/sounds/intro.mp3
+[23:59:22] [NET] Connected to B-Zone RPG | Advent Cal., Garbageman Rework
+[23:59:22] [LUA] 1
+[23:59:22] [LUA] send dialog response: 1 1 -1 b3b25bb14
+[23:59:22] [RPC] << New spawn: (1443.05; -1114.13; 93.34)
+[23:59:22] [RPC] << Spectator mode disabled
+[23:59:22] [RPC] >> You have been spawned!
+[23:59:22] [MSG] SERVER: Bine ai venit, LamineYamal!
+[23:59:22] [MSG] SERVER: Esti un jucator cu Cont Premium permanent.
+[23:59:22] [MSG] Recomandam descarcarea si folosirea launcherului open.mp de la adresa b-zone.ro/omp in loc de clientul de sa-mp. Acesta 
+[23:59:22] [MSG] ofera compatibilitate pe viitor mai buna, optimizari si securitate sporita.
+[23:59:22] [MSG] Adresa ta de Email este valida pana la 10.03.2026 12:43. O poti revalida folosind /validate.
+[23:59:22] [MSG] AVERTISMENT! Nu folosesti Autentificarea in doi pasi, contul tau este mai vulnerabil. Daca va fi spart, nu te vom ajuta.
+[23:59:22] [MSG] Pentru a afla cum se activeaza Autentificarea in doi pasi, acceseaza http://b-zone.ro/2fa
+[23:59:22] [GAMETEXT] ~w~Bun venit ~n~~y~   LamineYamal
+[23:59:22] [MSG] [Tasks] Inca ai taskuri nefinalizate! Tasteaza [/tasks] pentru a-ti verifica progresul.
+[23:59:25] [RPC] << Server requested spawn
+[23:59:25] [RPC] >> You have been spawned!
+[23:59:26] [RPC] << Set interior: 5
+[23:59:26] [RPC] << Set position: (140.33; 1366.48; 1083.86)
+[23:59:39] [MSG] SMS de la {FFFFFF}Hosico[OLD] {FFFF00}({FFFFFF}778{FFFF00}): stii preturile la skinuri de war?
+[23:59:51] [MSG] Ai pierdut 30 Viata din cauza dependentei de droguri.
+[23:59:51] [MSG] LamineYamal a pierdut 30 HP de la dependenta de droguri.
+[23:59:51] [MSG] Folositi /report pentru codati sau incalcari ale regulilor.
+[23:59:52] [MSG] Anunt publicat de {FFFFFF}[WG]LASTKING{00D900} ({FFFFFF}184{00D900}): Cumpar huntley sms me.
+[00:00:52] [MSG] |___ STATUT BANCAR ___|
+[00:00:52] [MSG] Plata: 783$    Bonus: 195$
+[00:00:52] [MSG] Taxa: -1$   Chirie: -0$
+[00:00:52] [MSG] Sold: 0$
+[00:00:52] [MSG] Rata dobanzii: 0.03%
+[00:00:52] [MSG] Dobanda: 0$
+[00:00:52] [MSG] |--------------------------------------|
+[00:00:52] [MSG] Sold curent: 0$
+[00:00:52] [GAMETEXT] ~y~A ajuns~n~~w~Salariul
+[00:00:52] [MSG] {FFB870}Ai primit bonusul pentru 3 ore jucate consecutiv (mai multe detalii pe /bonuses).
+[00:00:53] [MSG] Anunt publicat de {FFFFFF}[RW]Novrix{00D900} ({FFFFFF}235{00D900}): Clanul [RW] recruteaza noi jucatori activi & seriosi, cu o aplicatie bun ...
+[00:00:53] [MSG] ... a si cu minim nivel 40, aplicatiile pe website!.
+[00:00:54] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Ce ari prefera dintre cele 3 brand-uri germane BMW, Audi si Mercedes? - MisuGambino
+[00:01:07] [MSG] {54BF9C}[Freq 106.9] [RW]Novrix (235): Clanul [RW] recruteaza noi jucatori activi & seriosi, cu o aplicatie buna si cu minim nivel 40
+[00:01:08] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Ce ati* scuzele de riguare.
+[00:01:09] [MSG] {54BF9C}[Freq 106.9] [RW]Novrix (235): Clanul [RW] recruteaza noi jucatori activi & seriosi, cu o aplicatie buna si cu minim nivel 40.
+[00:01:14] [MSG] Jucatorul [JB]$apson a intrebat: Daca ies de pe server pierd artefactele din inventar?
+[00:01:14] [MSG] Helperul [TLG]Sizzer a raspuns: Salut, acestea iti raman in inventarul tau pana ce le vei vinde
+[00:01:22] [MSG] Anunt publicat de {FFFFFF}v2NaiDo{00D900} ({FFFFFF}29{00D900}): Dark4MooN este live pe b-zone.ro/dark4moon.
+[00:01:26] [MSG] Invitat Nana21[LION]: BMW.
+[00:01:39] [MSG] Jucatorul [JB]$apson a intrebat: Unde vand artefactele?
+[00:01:39] [MSG] Helperul [TLG]Sizzer a raspuns: Salut, tasteaza /gps - loc. importante - trader shop lv
+[00:01:41] [MSG] Invitat hrs_[OLD]: Imi place si Mercedesul dar tot BMW ramane focul meu.
+[00:01:52] [MSG] Anunt publicat de {FFFFFF}[iK]Maldini{00D900} ({FFFFFF}401{00D900}): Vand skin 20k rob reg 15 warpickup 25 4hit dmg.
+[00:01:58] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Am ramas fara idei din pacate, ceea ce insemna ca emisiunea noastra se apropie de final. [...]
+[00:02:23] [MSG] Anunt publicat de {FFFFFF}[PW]NaiDo{00D900} ({FFFFFF}416{00D900}): Dark4MooN este live pe b-zone.ro/dark4moon.
+[00:02:29] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: [...] Doriti sa le transmiteti ceva spectatorilor?
+[00:02:53] [MSG] Anunt publicat de {FFFFFF}[WG]DavidJ{00D900} ({FFFFFF}606{00D900}): Vand inf 8 km 162 days sms me .
+[00:03:03] [MSG] Jucatorul .Razvann[HAOS] a intrebat: Cat costa o cutie rosie?
+[00:03:03] [MSG] Helperul [NC]Cata.Versace a raspuns: Salut! Red Crate (60 MP / 70 Gold) contine: Premium Account - 1, 3 days, 1 week, 2 
+[00:03:03] [MSG] weeks, 1 month.
+[00:03:22] [MSG] Anunt publicat de {FFFFFF}Arin._.{00D900} ({FFFFFF}723{00D900}): Caut membru de mafie sa ii vand o arma pentru task.
+[00:03:53] [MSG] Anunt publicat de {FFFFFF}[CaB].Mario.09..{00D900} ({FFFFFF}2{00D900}): Recrutez playeri activi in cabana salarii zilnice.
+[00:03:55] [MSG] Invitat hrs_[OLD]: Da.
+[00:04:12] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Va ascultam!
+[00:04:45] [MSG] Jucatorul [CaB].Mario.09.. a intrebat: Cate ture trb pt skill 5 la arms dealer?
+[00:04:45] [MSG] Helperul [TLG]Sizzer a raspuns: Salut, pentru skill 5 vei avea nevoie in total de 1000 curse per total job
+[00:04:53] [MSG] Anunt publicat de {FFFFFF}[WG]walid1{00D900} ({FFFFFF}201{00D900}): Poker (mesa 1.2.3).
+[00:05:03] [MSG] Invitat hrs_[OLD]: Mi-a facut placere sa am un interviu alaturi de voi.Seara buna va doresc.
+[00:05:06] [MSG] Invitat Nana21[LION]: Sanatate, numa' bile.
+[00:05:08] [MSG] Invitat hrs_[OLD]: Vand Castana zilei Opel Astra H numai la 3000.99 RON.
+[00:05:08] [MSG] {C2A2DA}Reporter Quasar[][YCF]{9ACD32}: Acestia au fost Nana21 si hrs_, eu am fost Quasar[]. Va doresc o seara in continuare!
+[00:05:23] [MSG] Anunt publicat de {FFFFFF}[WG]Besina{00D900} ({FFFFFF}646{00D900}): Cumpar masina 1.7kk.
+[00:06:23] [MSG] Anunt publicat de {FFFFFF}[RW]Novrix{00D900} ({FFFFFF}235{00D900}): Clanul [RW] recruteaza noi jucatori activi & seriosi, cu o aplicatie bun ...
+[00:06:23] [MSG] ... a si cu minim nivel 40, aplicatiile pe website.
+[00:06:42] [MSG] Jucatorul Andrevvlv[KG] a intrebat: Cate artifacte trb sa vand in total pentru skill 10
+[00:06:42] [MSG] Helperul [TLG]Sizzer a raspuns: Salut, pentru skill 10 vei avea nevoie per total de 11.000 puncte job
+[00:06:53] [MSG] Anunt publicat de {FFFFFF}v2NaiDo{00D900} ({FFFFFF}29{00D900}): Dark4MooN este live pe b-zone.ro/dark4moon.
+[00:07:03] [MSG] Eveniment: Titlu: by [XO]Stroe
+[00:07:03] [MSG] Eveniment: Premiu: 150000
+[00:07:03] [MSG] Eveniment: Tip: Even/Odd, Locatie: Admin interior
+[00:07:03] [MSG] Eveniment: Organizator: [XO]ZioAdolf, Ajutoare: [TLG]Sizzer
+[00:07:03] [MSG] Eveniment: Nivel necesar pentru participare cuprins intre 1 - 999.
+[00:07:03] [MSG] Eveniment: Numar de participanti cuprins intre 3 - 100.
+[00:07:03] [MSG] Tasteaza /join pentru a participa.
+[00:07:11] [MSG] Organizator Eveniment [XO]ZioAdolf: Salutare din nou, Bizonilor! Dupa cum v-am promis m-am intors cu inca un event by [XO]Stroe
+[00:07:19] [MSG] Jucatorul Matei582.[] a intrebat: De unde imi pot pune benzina in masina
+[00:07:19] [MSG] Helperul [TLG]Sizzer a raspuns: Salut, de la benzinarie prin comanda /fillgascan sau poti chema un membru tow truck comp
+[00:07:19] [MSG] any
+[00:07:23] [MSG] Anunt publicat de {FFFFFF}[iK]Maldini{00D900} ({FFFFFF}401{00D900}): Vand skin 20k rob 15 reg warpickup 25 4hit dmg.
+[00:07:29] [MSG] Organizator Eveniment [XO]ZioAdolf: De data asta [XO]Stroe a vrut sa sponsorizeze un eveniment de tip: Par/Impar. /join
+[00:07:35] [MSG] {54BF9C}[Freq 106.9] Andrevvlv[KG] (783): are cnv skill 10 la arheolog?
+[00:07:45] [MSG] Organizator Eveniment [XO]ZioAdolf: Va astept cu un /join. Odata ce ati intrat va rog sa va puneti la perete in linee. 
+[00:07:53] [MSG] Anunt publicat de {FFFFFF}[PW]NaiDo{00D900} ({FFFFFF}416{00D900}): Dark4MooN este live pe b-zone.ro/dark4moon.
+[00:07:58] [MSG] Organizator Helper [TLG]Sizzer: /join la un event nocturn frumos by stroe
+[00:07:58] [MSG] Organizator Eveniment [XO]ZioAdolf: Altfel o sa primiti /ekick.
+[00:08:13] [MSG] Organizator Eveniment [XO]ZioAdolf: Premiul de inceput este de $150.000. La 25+ si 30+ partecipanti marim premiul cu $50.000.
+[00:08:23] [MSG] Anunt publicat de {FFFFFF}footfetish[OTF]{00D900} ({FFFFFF}846{00D900}): Vand Premier 4647z / Moonbeam 3649z / Wayfarer 4265z / Tampa 4364z  ...
+[00:08:23] [MSG] ... / Casa 41 / Skinuri Onyx det web +skin249
+.
+[00:08:42] [MSG] Organizator Eveniment [XO]ZioAdolf: Lasam portile deschise pana la si 13.
+[00:09:03] [MSG] Organizator Eveniment [XO]ZioAdolf: Eveniment Par / Impar by [XO]Stroe. P: $150.000 | /join masiv.
+[00:09:42] [MSG] Organizator Eveniment [XO]ZioAdolf: Avem doua praguri! 25+ si 30+ partecipanti. Fiecare prag valoreaza $50.000!
+[00:10:58] [MSG] Organizator Eveniment [XO]ZioAdolf: Eveniment Par/Impar by [XO]Stroe. P: $150.000 | Haideti cu un /join sa deblocam inca 50k.
+[00:11:48] [MSG] Organizator Eveniment [XO]ZioAdolf: Inca un minut pentru a avea sansa de a castiga $200.000 | Va astept cu /join.
+[00:11:51] [MSG] Este un eveniment in desfasurare, pentru detalii tastati /event.
+[00:11:59] [MSG] Jucatorul [WG]LASTKING a intrebat: What is huntley price in gold shop
+[00:12:00] [MSG] Helperul [NC]Cata.Versace a raspuns: Hello, you can not buy Huntley with gold.
+[00:12:23] [MSG] Anunt publicat de {FFFFFF}v2NaiDo{00D900} ({FFFFFF}29{00D900}): Dark4MooN este live pe b-zone.ro/dark4moon..
+[00:12:31] [MSG] Organizator Eveniment [XO]ZioAdolf: Eveniment Par / Impar by [XO]Stroe. P: $200.000 | /join masiv.
+[00:12:47] [MSG] Organizator Eveniment [XO]ZioAdolf: Last call. Haideti cu /join. eveniment by [XO]Stroe
+[11:12:05] [NET] The connection was lost. Reconnecting in 15 seconds.
+[11:12:23] [NET] Connecting to rpg.b-zone.ro:7777...
+[11:12:23] [NET] Connected. Joining the game...
+[11:12:24] [RPC] << Set interior: 0
+[11:12:24] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[11:12:24] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[11:12:24] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[11:12:24] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[11:12:24] [LUA] [Vivi] S-a înregistrat moarte, dar monitorizarea nu e activă încă.
+[11:12:24] [RPC] << New spawn: (0.00; 0.00; 3.00)
+[11:12:24] [RPC] << Spectator mode enabled
+[11:12:24] [AUDIO] http://r.b-zone.ro/sounds/intro.mp3
+[11:12:25] [NET] Connected to B-Zone RPG | Advent Cal., Garbageman Rework
+[11:12:25] [LUA] 1
+[11:12:25] [LUA] send dialog response: 1 1 -1 b3b25bb14
+[11:12:25] [RPC] << New spawn: (1443.05; -1114.13; 93.34)
+[11:12:25] [RPC] << Spectator mode disabled
+[11:12:25] [RPC] >> You have been spawned!
+[11:12:25] [MSG] SERVER: Bine ai venit, LamineYamal!
+[11:12:25] [MSG] SERVER: Esti un jucator cu Cont Premium permanent.
+[11:12:25] [MSG] Recomandam descarcarea si folosirea launcherului open.mp de la adresa b-zone.ro/omp in loc de clientul de sa-mp. Acesta 
+[11:12:25] [MSG] ofera compatibilitate pe viitor mai buna, optimizari si securitate sporita.
+[11:12:25] [MSG] Vei primi de doua ori mai multi bani si Puncte de Respect la urmatorul payday.
+[11:12:25] [MSG] Adresa ta de Email este valida pana la 10.03.2026 12:43. O poti revalida folosind /validate.
+[11:12:25] [MSG] AVERTISMENT! Nu folosesti Autentificarea in doi pasi, contul tau este mai vulnerabil. Daca va fi spart, nu te vom ajuta.
+[11:12:25] [MSG] Pentru a afla cum se activeaza Autentificarea in doi pasi, acceseaza http://b-zone.ro/2fa
+[11:12:25] [GAMETEXT] ~w~Bun venit ~n~~y~   LamineYamal
+[11:12:25] [MSG] [Tasks] Inca ai taskuri nefinalizate! Tasteaza [/tasks] pentru a-ti verifica progresul.
+[11:12:28] [RPC] << Server requested spawn
+[11:12:28] [RPC] >> You have been spawned!
+[11:12:28] [RPC] << Set interior: 5
+[11:12:28] [RPC] << Set position: (140.33; 1366.48; 1083.86)
+[11:12:38] [MSG] Anunt publicat de {FFFFFF}bogdan.21{00D900} ({FFFFFF}879{00D900}): Cumpar NRG wheel + vand skin Onyx id 293.
+[11:13:08] [MSG] Anunt publicat de {FFFFFF}AshHALYsalamDaNAM{00D900} ({FFFFFF}4{00D900}): Vand skin id 94 cu 15 regen si 25 pick war 15 la suta mai putine ma ...
+[11:13:08] [MSG] ... teriale.
+[11:13:23] [MSG] NR [PW]Simple: Crezi ca ai acumulat suficient respect points pentru urmatorul nivel, insa nu mai stii [...]
+[11:13:23] [MSG] NR [PW]Simple: [...] care este comanda? Atunci, foloseste [/buylevel] ca sa treci la urmatorul nivel.
+[11:13:39] [MSG] Anunt publicat de {FFFFFF}Jerescu[ZEW]{00D900} ({FFFFFF}750{00D900}): Cumpar sandking sau huntley.
+[11:14:15] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): SMS catre Ruxandra[OLD] (15):Ai nevoie de licente?
+[11:14:37] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Nici copy chat n ai.
+[11:14:38] [MSG] Anunt publicat de {FFFFFF}Ruxandra[OLD]{00D900} ({FFFFFF}15{00D900}): Caut /marry.
+[11:14:39] [MSG] {54BF9C}[Freq 106.9] [AF]Ionut537 (826): Vand/Schimb Sultan 20k km 4200 zile!
+[11:14:40] [MSG] {54BF9C}[Freq 106.9] [AF]Ionut537 (826): Vand/Schimb Sultan 20k km 4200 zile
+[11:14:43] [MSG] NR [TLG]G4BY: Vrei sa vezi cati Admini, Helperi si Lideri sunt online acum, dar nu stii cum sa procedezi?
+[11:14:43] [MSG] NR [TLG]G4BY: Atunci, tasteaza comenzile [/admins], [/helpers] si [/leaders] pentru acest lucru.
+[11:14:50] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): Ruxandra[OLD] (15) Te-a adaugat la lista de ignorari
+[11:14:57] [MSG] {54BF9C}[Freq 106.9] [CBN].Marin (856): ruxandra care e de fapt ruxandru
+[11:15:10] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): doar pentru ca i am spus daca vrea o licenta
+[11:15:33] [MSG] Jucatorul Marzo a intrebat: La trucker primesc mai mult daca aleg cursa mai lunga??
+[11:15:33] [MSG] Helperul YourCharisma[YCF] a raspuns: Da, cursele mai lungi in general ofera castig mai mare, dar nu diferente mari, ins
+[11:15:33] [MSG] a trebuie si cont premium + job boost.
+[11:15:38] [MSG] Anunt publicat de {FFFFFF}ValorianGOAT[HAOS]{00D900} ({FFFFFF}822{00D900}): Vand onyx skin very rare ID 291 AR 20,Jewels 20,rob money 20K 8kk.
+[11:15:39] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): genu asta de copii ar trebuii banati permanent pe IP
+[11:15:48] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Ca te-am bagat la ignore?
+[11:15:49] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Plangi.
+[11:16:02] [MSG] {54BF9C}[Freq 106.9] Hades[ZEW] (527): heartbroken
+[11:16:04] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): :))))
+[11:16:09] [MSG] Anunt publicat de {FFFFFF}[WG]RoolsBmB1{00D900} ({FFFFFF}824{00D900}): Ofer licente cu test jucatorilor de nivel 1-49!!.
+[11:16:14] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Pui pe frecventa, ce rezolvi?
+[11:16:16] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Tristule?
+[11:16:19] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): sunt foarte trist ca m ai bagat la ignore
+[11:16:22] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Pai da.
+[11:16:24] [MSG] {54BF9C}[Freq 106.9] Ruxandra[OLD] (15): Esti.
+[11:16:31] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): supararea m a mancat
+[11:16:47] [MSG] {54BF9C}[Freq 106.9] Hades[ZEW] (527): ce i rau sa fii trist
+[11:16:55] [MSG] {54BF9C}[Freq 106.9] Hades[ZEW] (527): cine i fericit cu adv
+[11:17:10] [MSG] {54BF9C}[Freq 106.9] Activistul.[YCF] (41): eu cand vad o oala de sarmale 
+[11:17:16] [MSG] {54BF9C}[Freq 106.9] [XO]Leonardo.26 (827): adevarat
+[11:17:23] [MSG] {54BF9C}[Freq 106.9] Activistul.[YCF] (41): din foi de varza 
+[11:17:33] [MSG] {54BF9C}[Freq 106.9] Hades[ZEW] (527): a ok scuze eu
+[11:17:38] [MSG] {54BF9C}[Freq 106.9] Activistul.[YCF] (41): aia e fericire 
+[11:17:39] [MSG] Anunt publicat de {FFFFFF}s3nzatie{00D900} ({FFFFFF}743{00D900}): Ofer licente autorizate tuturor jucatorilor, indiferent de nivel.
+[11:18:09] [MSG] Anunt publicat de {FFFFFF}bogdan.21{00D900} ({FFFFFF}879{00D900}): Cumpar NRG wheel + vand skin Onyx id 293..
+[11:19:35] [MSG] {54BF9C}[Freq 106.9] Hades[ZEW] (527): vand 3 skinuri diamond la 750k bucata
+[11:19:50] [MSG] Jucatorul Marzo a intrebat: Cat costa un premier
+[11:19:50] [MSG] Helperul YourCharisma[YCF] a raspuns: Foloseste comanda [/dsprice] > Premier.
+[11:19:52] [MSG] NR [PW]Simple: Te-ai saturat sa te tot spawnezi la aeroportul din Los Santos si doresti un loc mai bun?
+[11:19:52] [MSG] NR [PW]Simple: Atunci, foloseste comanda [/rentroom] la o casa care poate oferi suport pentru chiriasi noi.
+[11:20:08] [MSG] Ai pierdut 30 Viata din cauza dependentei de droguri.
+[11:20:08] [MSG] LamineYamal a pierdut 30 HP de la dependenta de droguri.
+[11:20:08] [MSG] Nu dati parola contului nimanui, nici macar adminilor.
+[11:20:09] [MSG] Anunt publicat de {FFFFFF}Ruxandra[OLD]{00D900} ({FFFFFF}15{00D900}): Caut /marry.
+[11:20:40] [MSG] {54BF9C}[Freq 106.9] [BL]lupu2k (898): se gasesc skin uri onyx la 1kk-1.5kk?
+[11:20:47] [MSG] {54BF9C}[Freq 106.9] Activistul.[YCF] (41): da
+[11:21:06] [MSG] {54BF9C}[Freq 106.9] [TLG]SoRyN (825): Haideti la PB
+[11:21:09] [MSG] Anunt publicat de {FFFFFF}ValorianGOAT[HAOS]{00D900} ({FFFFFF}822{00D900}): Vand onyx skin very rare ID 291 AR 20,Jewels 20,rob money 20K 8kk..
+[11:22:02] [MSG] Jucatorul [V]MihutaR a intrebat: Unde este craw bar?
+[11:22:02] [MSG] Helperul YourCharisma[YCF] a raspuns: Foloseste comanda [/gps] > Biz-uri > ID 21 si vis a vis de biz ul asta, se afla Cr
+[11:22:02] [MSG] ow Bar.
+[11:22:08] [NET] Disconnected.
