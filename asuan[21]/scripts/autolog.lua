@@ -1,4 +1,4 @@
-password = "b3b25bb14" -- < aici pui parola 
+password = "baligasmechera" -- < aici pui parola 
 
 
 require("addon")
