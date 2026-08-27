@@ -24,7 +24,7 @@ BOTS=("asuan17")\n\
 for bot in "${BOTS[@]}"; do\n\
     if [ -d "/app/$bot" ]; then\n\
         echo "[RENDER-BOT] Avvio $bot..."\n\
-        (cd "/app/$bot" && while true; do wine "RakSAMP Lite.exe"; sleep 30; done) &\n\
+        (cd "/app/$bot" && while true; do wine "RakSAMP Lite.exe" 2>&1; sleep 30; done) &\n\
         sleep 2\n\
     fi\n\
 done\n\
