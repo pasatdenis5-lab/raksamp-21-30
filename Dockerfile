@@ -1,37 +1,34 @@
 FROM ubuntu:22.04
 
-# Evoi interruzioni durante l'installazione dei pacchetti
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive \
+    DISPLAY=:99 \
+    WINEDEBUG=-all \
+    WINEPREFIX=/root/.wine32 \
+    WINEARCH=win32
 
-# Aggiungiamo l'architettura a 32 bit e installiamo Wine, Xvfb e Python
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
-    apt-get install -y --no-install-recommends \
-    wine \
-    wine32 \
-    xvfb \
-    python3 && \
+    apt-get install -y --no-install-recommends wine wine32 xvfb python3 && \
     rm -rf /var/lib/apt/lists/*
 
-# Impostiamo la cartella di lavoro principale nel container
 WORKDIR /app
-
-# Copiamo tutti i file (comprese le tue cartelle con dentro RakSAMP) nella directory di lavoro
 COPY . /app
 
-# Script di avvio robusto:
-# 1. Avvia il server HTTP Python in background per mantenere la porta aperta per Render.
-# 2. Aspetta 5 secondi per sicurezza.
-# 3. Entra in ogni cartella presente, avvia RakSAMP con Wine tramite il display virtuale Xvfb in background.
-# 4. 'wait' finale per mantenere il container costantemente attivo e vivo.
-CMD /bin/bash -c "python3 -m http.server ${PORT:-10000} & \
-    sleep 5 && \
-    for d in */; do \
-        if [ -d \"\$d\" ]; then \
-            echo \"Avvio RakSAMP nella cartella: \$d\" && \
-            cd \"\$d\" && \
-            xvfb-run wine \"RakSAMP Lite.exe\" & \
-            cd ..; \
-        fi; \
-    done && \
-    wait"
+RUN echo '#!/bin/bash\n\
+Xvfb :99 -screen 0 800x600x8 &\n\
+sleep 2\n\
+python3 -m http.server ${PORT:-10000} &\n\
+\n\
+BOTS=("asuan17")\n\
+\n\
+for bot in "${BOTS[@]}"; do\n\
+    if [ -d "/app/$bot" ]; then\n\
+        echo "[RENDER-BOT] Avvio $bot..."\n\
+        (cd "/app/$bot" && while true; do wine "RakSAMP Lite.exe"; sleep 30; done) &\n\
+        sleep 2\n\
+    fi\n\
+done\n\
+\n\
+tail -f /dev/null' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
+
+CMD ["/bin/bash", "/app/entrypoint.sh"]
