@@ -19,13 +19,20 @@ Xvfb :99 -screen 0 800x600x8 &\n\
 sleep 2\n\
 python3 -m http.server ${PORT:-10000} &\n\
 \n\
-echo "=== CONTROLLO FILE DISPONIBILI IN /APP ==="\n\
-ls -la /app\n\
-echo "==========================================="\n\
+BOT="asuan[21]"\n\
 \n\
-cd /app/asuan17 || echo "ATTENZIONE: Cartella asuan17 non trovata!"\n\
-echo "Avvio diretto di RakSAMP..."\n\
-wine "RakSAMP Lite.exe"\n\
+if [ -d "/app/$BOT" ]; then\n\
+    echo "[RENDER-BOT] Trovata cartella $BOT, avvio in corso..."\n\
+    cd "/app/$BOT"\n\
+    while true; do\n\
+        wine "RakSAMP Lite.exe" 2>&1\n\
+        echo "[RENDER-BOT] Bot disconnesso, riavvio tra 10 secondi..."\n\
+        killall -9 wineserver wine-preloader wine 2>/dev/null\n\
+        sleep 10;\n\
+    done\n\
+else\n\
+    echo "ERRORE: La cartella $BOT non esiste in /app!"\n\
+fi\n\
 \n\
 tail -f /dev/null' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
 
