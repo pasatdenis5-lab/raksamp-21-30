@@ -1,13 +1,43 @@
 FROM ubuntu:22.04
 
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive \
+    DISPLAY=:99 \
+    WINEDEBUG=-all \
+    WINEPREFIX=/root/.wine32 \
+    WINEARCH=win32
 
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
-    apt-get install -y wine32 xvfb python3 && \
+    apt-get install -y --no-install-recommends wine wine32 xvfb python3 && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 COPY . /app
 
-CMD python3 -m http.server ${PORT:-10000} & (sleep 5 && for d in */; do (cd "$d" && xvfb-run wine "RakSAMP Lite.exe" &); done)
+RUN echo '#!/bin/bash\n\
+Xvfb :99 -screen 0 800x600x8 &\n\
+sleep 2\n\
+python3 -m http.server ${PORT:-10000} &\n\
+\n\
+BOTS=("asuan[1]" "asuan[2]" "asuan[3]" "asuan[4]" "asuan[5]" "asuan[6]" "asuan[8]" "asuan[9]" "asuan[10]" "asuan[21]")\n\
+\n\
+for bot in "${BOTS[@]}"; do\n\
+    if [ -d "/app/$bot" ]; then\n\
+        echo "[RENDER-BOT] Avvio $bot..."\n\
+        (cd "/app/$bot" && while true; do \n\
+            wine "RakSAMP Lite.exe" 2>&1\n\
+            echo "[RENDER-BOT] $bot disconnesso. Pulizia profonda di Wine..."\n\
+            wineserver -k 2>/dev/null\n\
+            killall -9 wineserver wine-preloader wine 2>/dev/null\n\
+            sleep 5\n\
+            rm -rf /root/.wine32/dosdevices/z:*\n\
+            echo "[RENDER-BOT] Riavvio $bot in corso..."\n\
+            sleep 5;\n\
+        done) &\n\
+        sleep 5\n\
+    fi\n\
+done\n\
+\n\
+tail -f /dev/null' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
+
+CMD ["/bin/bash", "/app/entrypoint.sh"]
