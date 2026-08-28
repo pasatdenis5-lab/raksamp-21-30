@@ -19,20 +19,24 @@ Xvfb :99 -screen 0 800x600x8 &\n\
 sleep 2\n\
 python3 -m http.server ${PORT:-10000} &\n\
 \n\
-BOT="asuan[21]"\n\
+BOTS=("asuan[1]" "asuan[2]" "asuan[3]" "asuan[4]" "asuan[5]" "asuan[6]" "asuan[8]" "asuan[9]" "asuan[10]" "asuan[21]")\n\
 \n\
-if [ -d "/app/$BOT" ]; then\n\
-    echo "[RENDER-BOT] Trovata cartella $BOT, avvio in corso..."\n\
-    cd "/app/$BOT"\n\
-    while true; do\n\
-        wine "RakSAMP Lite.exe" 2>&1\n\
-        echo "[RENDER-BOT] Bot disconnesso, riavvio tra 10 secondi..."\n\
-        killall -9 wineserver wine-preloader wine 2>/dev/null\n\
-        sleep 10;\n\
-    done\n\
-else\n\
-    echo "ERRORE: La cartella $BOT non esiste in /app!"\n\
-fi\n\
+for bot in "${BOTS[@]}"; do\n\
+    if [ -d "/app/$bot" ]; then\n\
+        echo "[RENDER-BOT] Avvio $bot..."\n\
+        (cd "/app/$bot" && while true; do \n\
+            wine "RakSAMP Lite.exe" 2>&1\n\
+            echo "[RENDER-BOT] $bot disconnesso. Pulizia profonda di Wine..."\n\
+            wineserver -k 2>/dev/null\n\
+            killall -9 wineserver wine-preloader wine 2>/dev/null\n\
+            sleep 5\n\
+            rm -rf /root/.wine32/dosdevices/z:*\n\
+            echo "[RENDER-BOT] Riavvio $bot in corso..."\n\
+            sleep 5;\n\
+        done) &\n\
+        sleep 5\n\
+    fi\n\
+done\n\
 \n\
 tail -f /dev/null' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
 
