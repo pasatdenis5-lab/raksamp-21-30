@@ -8,16 +8,18 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
-    apt-get install -y --no-install-recommends wine wine32 xvfb python3 && \
+    apt-get install -y --no-install-recommends wine wine32 xvfb x11vnc novnc websockify fluxbox && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 COPY . /app
 
 RUN echo '#!/bin/bash\n\
-Xvfb :99 -screen 0 800x600x8 &\n\
+Xvfb :99 -screen 0 1024x768x16 &\n\
 sleep 2\n\
-python3 -m http.server ${PORT:-10000} &\n\
+fluxbox &\n\
+x11vnc -display :99 -nopw -forever -shared -rfbport 5900 &\n\
+websockify --web=/usr/share/novnc/ ${PORT:-10000} localhost:5900 &\n\
 \n\
 BOTS=("asuan[1]" "asuan[2]" "asuan[3]" "asuan[4]" "asuan[5]" "asuan[6]" "asuan[8]" "asuan[9]" "asuan[10]" "asuan[21]")\n\
 \n\
@@ -26,13 +28,7 @@ for bot in "${BOTS[@]}"; do\n\
         echo "[RENDER-BOT] Avvio $bot..."\n\
         (cd "/app/$bot" && while true; do \n\
             wine "RakSAMP Lite.exe" 2>&1\n\
-            echo "[RENDER-BOT] $bot disconnesso. Pulizia profonda di Wine..."\n\
-            wineserver -k 2>/dev/null\n\
-            killall -9 wineserver wine-preloader wine 2>/dev/null\n\
-            sleep 5\n\
-            rm -rf /root/.wine32/dosdevices/z:*\n\
-            echo "[RENDER-BOT] Riavvio $bot in corso..."\n\
-            sleep 5;\n\
+            sleep 10;\n\
         done) &\n\
         sleep 5\n\
     fi\n\
