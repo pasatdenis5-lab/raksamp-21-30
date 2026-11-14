@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
-    apt-get install -y --no-install-recommends wine wine32 xvfb x11vnc novnc websockify fluxbox && \
+    apt-get install -y --no-install-recommends wine wine32 xvfb x11vnc novnc websockify openbox && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -17,11 +17,11 @@ COPY . /app
 RUN echo '#!/bin/bash\n\
 Xvfb :99 -screen 0 1024x768x16 &\n\
 sleep 2\n\
-fluxbox &\n\
+openbox &\n\
 sleep 1\n\
-x11vnc -display :99 -nopw -forever -shared -listen localhost -rfbport 5900 &\n\
+x11vnc -display :99 -nopw -forever -shared -noxdamage -nowf -listen localhost -rfbport 5900 &\n\
 sleep 2\n\
-websockify --web=/usr/share/novnc/ 0.0.0.0:${PORT:-10000} localhost:5900 &\n\
+websockify --web=/usr/share/novnc/ --heartbeat=10 0.0.0.0:${PORT:-10000} localhost:5900 &\n\
 \n\
 BOTS=("asuan[1]" "asuan[2]" "asuan[3]" "asuan[4]" "asuan[5]" "asuan[6]" "asuan[8]" "asuan[9]" "asuan[10]" "asuan[21]")\n\
 \n\
